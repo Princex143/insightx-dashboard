@@ -1,48 +1,24 @@
-# InsightX Control Tower (Frontend-Only)
+# InsightX – SaaS Analytics Dashboard
 
-Portfolio-grade frontend project that simulates an enterprise analytics SaaS app with no backend dependency.
+A modern SaaS-style analytics dashboard built with React, TypeScript, and Tailwind CSS.
 
-## Stack
-- React + TypeScript + Vite
-- React Router for protected app routing
-- Zustand for global state and persistence
-- TanStack Query for server-state simulation and caching
+## 🚀 Features
+- Sidebar navigation
+- Topbar with search and profile
+- KPI statistic cards
+- Chart section layout
+- Clean dark UI design
+- Responsive grid layout
 
-## Features Implemented
-- Mock auth with role switching (`admin` / `viewer`)
-- Protected routes and persisted sessions
-- KPI dashboard with async loading states
-- Drag/reorder dashboard widgets with persistent layout
-- Large virtualized events table (6k rows)
-- Advanced filters + saved filter views
-- CSV export of filtered data
-- Command palette (`Ctrl+K`) with quick actions
-- Toast notifications and network status indicator
-- Global React error boundary fallback screen
-- Responsive UI with custom visual style
+## 🛠 Tech Stack
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-## Local Run
-```bash
-npm install
-npm run dev
-```
+## 📌 Status
+Frontend UI structure completed. Further enhancements and chart integrations planned.
 
-Demo credentials:
-- `admin@insightx.dev` / `admin123`
-- `viewer@insightx.dev` / `viewer123`
+---
 
-## Validation
-```bash
-npm run lint
-npm run build
-```
-
-## Resume Bullet (Use This)
-Built a frontend-only enterprise analytics dashboard using React, TypeScript, Zustand, and TanStack Query, including protected routing, role-based UI, persistent layout builder, virtualized large-data tables, saved views, command palette shortcuts, and robust UX states (error boundary, offline indicator, toasts).
-
-## Suggested Next Upgrades
-1. Add charting library (ECharts/Recharts) with interactive drill-down.
-2. Integrate MSW to formalize mocked REST endpoints.
-3. Add Vitest + React Testing Library + Playwright suites.
-4. Add i18n and accessibility test checks (axe).
-5. Deploy with CI previews and add architecture diagram screenshots.
+Built as part of my frontend development portfolio.
